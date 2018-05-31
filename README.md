@@ -15,9 +15,8 @@ want to update the already installed conent pack, rebundle the changes,
 then update as follows:
 
   `# edit files as desired`
-
   `drpcli contents bundle colordemo-v2.yaml`
-  `drpcli contents update colordemo ./colordemo-v2.yaml
+  `drpcli contents update colordemo ./colordemo-v2.yaml`
 
 ## Feature in Videos!
 
