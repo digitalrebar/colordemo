@@ -20,11 +20,15 @@ then update as follows:
 
   `drpcli contents update colordemo ./colordemo-v2.yaml`
 
-NOTE: The empty directories (`profiles` and `workflows`) are added to
-this repo as examples for those content types.  They are intended to be
-empty.
-
 ## Feature in Videos!
 
 * Creating Content: https://youtu.be/79Y-3IOguZk
 * Bundling: https://youtu.be/JUyzFNkLyZU
+
+## NOTE
+
+The empty directories (`profiles` and `workflows`) are added to this
+repo as examples for those content types, with an empty `empty.yaml`
+file on purpose.  Git does not support empty directories in repos,
+and DRP content can not contain spurious filetypes.
+
