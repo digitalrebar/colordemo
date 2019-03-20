@@ -42,7 +42,7 @@ drpcli contents update colordemo ../colordemo-v2.yaml
 You must have a machine that is currently running an Agent (`runner-service`);
 the _Sledgehammer_ (discovery) bootenv meets this criteria, or the
 `runner-service` has been run on an installed OS.  Verify the agent is running
-with `ps -ef | grep 'drpcli processjobs' | grep -v grep".
+with `ps -ef | grep 'drpcli processjobs' | grep -v grep"`.
 
 Add the `colordemo-example` profile to the machine, a cloned version of the
 profile with your changes to the _Params_, or the bare params directly to
