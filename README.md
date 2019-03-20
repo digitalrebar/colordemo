@@ -61,7 +61,7 @@ error will occur on the bundle operation, like:
   `drp@pixie:./colordemo$ drpcli contents bundle colordemo-v1.yaml`
   `Error: Failed to load: No idea how to decode LICENSE into dr-provision-releases`
 
-(".gitignore" will also similarly cause an error).  Insure your directory
+(".gitignore" will also similarly cause an error).  Make sure your directory
 is clean from errant hidden/dot files, things like "LICENSE", "README.md", etc.
 
 For this reason, the "colordemo" contents have been moved in to the subdirectory
