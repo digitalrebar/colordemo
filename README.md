@@ -65,4 +65,4 @@ error will occur on the bundle operation, like:
 is clean from errant hidden/dot files, things like "LICENSE", "README.md", etc.
 
 For this reason, the "colordemo" contents have been moved in to the subdirectory
-named "contents/".
+named "content/".
