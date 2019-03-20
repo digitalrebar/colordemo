@@ -55,7 +55,7 @@ with the appropriate options.  Run "drpcli" by itself to get help output.
 
 The contents bundle operation is very sensitve to errant/unexpected files
 in the directory structure.  Anything that is NOT a meta file (eg a file
-with ".__Something.meta" or a YAML file will be misinterpreted and an
+with ".\_Something.meta" or a YAML file will be misinterpreted and an
 error will occur on the bundle operation, like:
 
   `drp@pixie:./colordemo$ drpcli contents bundle colordemo-v1.yaml`
