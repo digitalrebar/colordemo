@@ -6,6 +6,8 @@ export RS_UUID="{{.Machine.UUID}}"
 
 {{template "setup.tmpl" .}}
 
+# Verify that the Param exists with a "color" and "icon" value, and use the
+# value from it.  If not then fall back to a default for safety.
 {{if .ParamExists "colordemo/color" -}}
 COLOR={{.Param "colordemo/color"}}
 {{else -}}
@@ -18,7 +20,7 @@ ICON={{.Param "colordemo/icon"}}
 ICON="server"
 {{end -}}
 
-echo "Setting the Color to $COLOR and Icon to $ICON"
+echo "Setting the Color to '$COLOR' and Icon to '$ICON' for Machine '$RS_UUID'"
 
 # do work!
 drpcli machines update $RS_UUID "{\"Meta\":{\"color\":\"$COLOR\", \"icon\": \"$ICON\"}}" | jq .Meta
