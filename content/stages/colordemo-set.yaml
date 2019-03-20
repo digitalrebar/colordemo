@@ -3,7 +3,7 @@ Meta:
   color: yellow
   icon: info
   title: RackN Content
-Name: colordemo
+Name: colordemo-set
 Reboot: false
 RunnerWait: true
 Tasks:

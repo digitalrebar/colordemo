@@ -1,0 +1,14 @@
+---
+Name: colordemo-example
+Description: Example profile for setting the color and icon on meta data
+Documentation: |
+  Sets the machine meta information to an Orange Desktop icon.  Clone this
+  profile and change the Param values to change the meta icon information.
+
+Params:
+  colordemo/color: orange
+  colordemo/icon: desktop
+Meta:
+  color: blue
+  icon: key
+  title: RackN Content

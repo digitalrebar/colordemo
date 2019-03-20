@@ -1,8 +1,9 @@
-Description: The color for machines icon
+Description: The icon for machines icon
 Meta:
   color: blue
   icon: info
   title: RackN Content
-Name: colordemo/color
+Name: colordemo/icon
 Schema:
   type: string
+  default: server
