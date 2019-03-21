@@ -12,7 +12,7 @@ To install the `colordemo` content pack, use the following command:
 
 ```shell
 git clone https://github.com/digitalrebar/colordemo.git
-cd contents
+cd ./content
 drpcli contents bundle ../colordemo-v1.yaml
 ```
 
