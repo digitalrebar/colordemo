@@ -63,8 +63,9 @@ and port specified as follows:
 Make sure you set the Endpoint (and Username/Password if changed from defaults)
 with the appropriate options.  Run `drpcli` by itself to get help output.
 
-## Notes:
+## Notes
 
+### Bundle Operations
 The contents bundle operation is very sensitve to errant/unexpected files
 in the directory structure.  Anything that is NOT a meta file (eg a file
 with `.\_Something.meta` or a YAML file will be misinterpreted and an
@@ -80,3 +81,8 @@ is clean from errant hidden/dot files, things like `LICENSE`, `README.md`, etc.
 
 For this reason, the `colordemo` contents have been moved in to the subdirectory
 named `content/`.
+
+### README.md as .\_Documentation.meta
+
+This README is included (by symbolic reference) as `content/.\_Documentation.meta`
+file.  The Documentation meta file can use RST formatted text.
