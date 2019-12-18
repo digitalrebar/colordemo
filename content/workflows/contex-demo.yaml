@@ -1,0 +1,16 @@
+---
+Name: context-demo
+Description: Simple workflow to execute a script in a docker container to show off context.
+Documentation: |
+  Basic workflow to show a hello world type of example for use with docker contexts.
+
+Stages:
+  - context-demo-stage
+  - complete
+Meta:
+  color: purple
+  icon: spinner
+  title: Digital Rebar Community Content
+
+
+

@@ -1,0 +1,12 @@
+Description: Stage to run the context-demo-example task
+Meta:
+  color: yellow
+  icon: info
+  title: RackN Content
+Name: context-demo-stage
+Reboot: false
+RunnerWait: true
+Tasks:
+- "context:runner"
+- "context-demo-example"
+- "context:"

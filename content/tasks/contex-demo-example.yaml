@@ -1,0 +1,15 @@
+Description: A task execute an example script on a docker host
+Meta:
+  color: blue
+  icon: info
+  title: RackN Content
+Name: context-demo-example
+OptionalParams: 
+  - "context-demo/color"
+  - "context-demo/icon"
+Templates:
+- Contents: ""
+  ID: context-demo-example.sh.tmpl
+  Name: "Show off using docker container context."
+  Path: ""
+
