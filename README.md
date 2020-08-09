@@ -57,7 +57,7 @@ drpcli contents create ../colordemo-v1.yaml
 ```
 
 If you make changes to the local files (updates, edits, fixes, etc), and
-want to update the already installed conent pack, rebundle the changes,
+want to update the already installed content pack, rebundle the changes,
 then update as follows:
 
 ```shell
@@ -133,7 +133,7 @@ bundle, while other content packs exist in the subdirectories "`krib`",
 
 ### Bundle Operation Errors
 
-The contents bundle operation is very sensitve to errant/unexpected files
+The contents bundle operation is very sensitive to errant/unexpected files
 in the directory structure.  Anything that is NOT a meta file (eg a file
 with `.\_Something.meta` or a YAML file will be misinterpreted and an
 error will occur on the bundle operation, like:
