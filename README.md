@@ -57,13 +57,13 @@ drpcli contents create ../colordemo-v1.yaml
 ```
 
 If you make changes to the local files (updates, edits, fixes, etc), and
-want to update the already installed content pack, rebundle the changes,
+want to upload the already installed content pack, rebundle the changes,
 then update as follows:
 
 ```shell
 # edit files as desired
 drpcli contents bundle ../colordemo-v2.yaml
-drpcli contents update colordemo ../colordemo-v2.yaml
+drpcli contents upload ../colordemo-v2.yaml
 ```
 
 
