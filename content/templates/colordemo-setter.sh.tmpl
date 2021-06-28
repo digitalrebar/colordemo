@@ -2,8 +2,6 @@
 
 set -e
 
-export RS_UUID="{{.Machine.UUID}}"
-
 {{template "setup.tmpl" .}}
 
 # Verify that the Param exists with a "color" and "icon" value, and use the
